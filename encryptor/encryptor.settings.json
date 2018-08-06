@@ -1,0 +1,19 @@
+{
+
+
+    "Encryptor":
+    {
+        "AES-128-GCM":
+        {
+            "KEY" : "+8q3WKDaug==a8*sdfPne3#4aqzltb(sdd*^#@!#ggg--+=Aewr!"
+        },
+        "AES-128-CBC":
+        {
+            "KEY": "+8q3WKDaug==a8*sdfPne3#4aqzltb(sdd*^#@!#ggg--+=Aewr"
+        }
+    }
+
+
+
+
+}

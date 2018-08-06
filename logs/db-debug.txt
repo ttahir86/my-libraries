@@ -1,0 +1,284 @@
+
+1532909889 : SELECT * FROM UserTable  WHERE username='test' AND password='talal'  ;
+1532909889 : [{"id":"3","username":"test","email":"test@test.com","password":"talal"}]
+1532909910 : SELECT * FROM UserTable  WHERE username='test' AND password='talal'  ;
+1532909910 : [{"id":"3","username":"test","email":"test@test.com","password":"talal"}]
+1532909913 : SELECT * FROM UserTable  WHERE username='test' AND password='talal'  ;
+1532909913 : [{"id":"3","username":"test","email":"test@test.com","password":"talal"}]
+1532909941 : SELECT * FROM UserTable  WHERE username='test' AND password='talal'  ;
+1532909941 : [{"id":"3","username":"test","email":"test@test.com","password":"talal"}]
+1532909958 : SELECT * FROM UserTable  WHERE username='test' AND password='talal'  ;
+1532909958 : [{"id":"3","username":"test","email":"test@test.com","password":"talal"}]
+1532910008 : SELECT * FROM UserTable  WHERE username='test' AND password='talal'  ;
+1532910008 : [{"id":"3","username":"test","email":"test@test.com","password":"talal"}]
+1532910032 : SELECT * FROM UserTable  WHERE username='test' AND password='talal'  ;
+1532910032 : [{"id":"3","username":"test","email":"test@test.com","password":"talal"}]
+1532910384 : SELECT * FROM UserTable  WHERE username='test' AND password='talal'  ;
+1532910384 : [{"id":"3","username":"test","email":"test@test.com","password":"talal"}]
+1532910440 : SELECT * FROM UserTable  WHERE username='test' AND password='talal'  ;
+1532910440 : [{"id":"3","username":"test","email":"test@test.com","password":"talal"}]
+1532910440 : INSERT INTO UserTable (username,password) VALUES ('dummy', 'myname')
+1532910488 : SELECT * FROM UserTable  WHERE username='test' AND password='talal'  ;
+1532910488 : [{"id":"3","username":"test","email":"test@test.com","password":"talal"}]
+1532910489 : INSERT INTO UserTable (username,password,email) VALUES ('cash', 'myname', 'dummy@dummy.com')
+1532910534 : SELECT * FROM UserTable  WHERE username='test' AND password='talal'  ;
+1532910534 : [{"id":"3","username":"test","email":"test@test.com","password":"talal"}]
+1532910534 : INSERT INTO UserTable (username,password,email) VALUES ('cash', 'myname', 'dummy@dummy.com')
+1532910554 : SELECT * FROM UserTable  WHERE username='test' AND password='talal'  ;
+1532910554 : [{"id":"3","username":"test","email":"test@test.com","password":"talal"}]
+1532910554 : INSERT INTO UserTable (username,password,email) VALUES ('cash', '$2y$11$4HqoK8fb79AlKrAoJ8vJLepmgBwa7FY/GJlcpPJhGlEfPYeWGC4aK', 'dummy@dummy.com')
+1532910657 : SELECT * FROM UserTable  WHERE username='test' AND password='$2y$11$4HqoK8fb79AlKrAoJ8vJLe3eHzsWjTOxv7GNlhBZOwx8UfKHSXxUS'  ;
+1532910657 : []
+1532910657 : INSERT INTO UserTable (username,password,email) VALUES ('cash', '$2y$11$4HqoK8fb79AlKrAoJ8vJLepmgBwa7FY/GJlcpPJhGlEfPYeWGC4aK', 'dummy@dummy.com')
+1532910673 : SELECT * FROM UserTable  WHERE username='test' AND password='$2y$11$4HqoK8fb79AlKrAoJ8vJLe3eHzsWjTOxv7GNlhBZOwx8UfKHSXxUS'  ;
+1532910674 : []
+1532910674 : INSERT INTO UserTable (username,password,email) VALUES ('cash', '$2y$11$4HqoK8fb79AlKrAoJ8vJLepmgBwa7FY/GJlcpPJhGlEfPYeWGC4aK', 'dummy@dummy.com')
+1532910708 : SELECT * FROM UserTable  WHERE username='test' AND password='$2y$11$4HqoK8fb79AlKrAoJ8vJLe3eHzsWjTOxv7GNlhBZOwx8UfKHSXxUS'  ;
+1532910708 : []
+1532910708 : INSERT INTO UserTable (username,password,email) VALUES ('funny', '$2y$11$4HqoK8fb79AlKrAoJ8vJLecDNyNgV02Q3yZi5LS9LP0JF0W.Oo8Pe', 'sunny@yummy.com')
+1532910730 : SELECT * FROM UserTable  WHERE username='funny' AND password='$2y$11$4HqoK8fb79AlKrAoJ8vJLecDNyNgV02Q3yZi5LS9LP0JF0W.Oo8Pe'  ;
+1532910730 : [{"id":"10","username":"funny","email":"sunny@yummy.com","password":"$2y$11$4HqoK8fb79AlKrAoJ8vJLecDNyNgV02Q3yZi5LS9LP0JF0W.Oo8Pe"}]
+1532910834 : SELECT * FROM UserTable  WHERE username='funny' AND password='*0'  ;
+1532910834 : []
+1532910843 : SELECT * FROM UserTable  WHERE username='funny' AND password='$2y$11$4HqoK8fb79AlKrAoJ8vJLecDNyNgV02Q3yZi5LS9LP0JF0W.Oo8Pe'  ;
+1532910843 : [{"id":"10","username":"funny","email":"sunny@yummy.com","password":"$2y$11$4HqoK8fb79AlKrAoJ8vJLecDNyNgV02Q3yZi5LS9LP0JF0W.Oo8Pe"}]
+1532910982 : SELECT * FROM UserTable  WHERE username='funny' AND password='$2y$11$4HqoK8fb79AlKrAoJ8vJLecDNyNgV02Q3yZi5LS9LP0JF0W.Oo8Pe'  ;
+1532910982 : [{"id":"10","username":"funny","email":"sunny@yummy.com","password":"$2y$11$4HqoK8fb79AlKrAoJ8vJLecDNyNgV02Q3yZi5LS9LP0JF0W.Oo8Pe"}]
+1532910992 : SELECT * FROM UserTable  WHERE username='funny' AND password='$2y$11$4HqoK8fb79AlKrAoJ8vJLecDNyNgV02Q3yZi5LS9LP0JF0W.Oo8Pe'  ;
+1532910992 : [{"id":"10","username":"funny","email":"sunny@yummy.com","password":"$2y$11$4HqoK8fb79AlKrAoJ8vJLecDNyNgV02Q3yZi5LS9LP0JF0W.Oo8Pe"}]
+1532911029 : SELECT * FROM UserTable  WHERE username='funny' AND password='$2y$11$4HqoK8fb79AlKrAoJ8vJLecDNyNgV02Q3yZi5LS9LP0JF0W.Oo8Pe'  ;
+1532911029 : [{"id":"10","username":"funny","email":"sunny@yummy.com","password":"$2y$11$4HqoK8fb79AlKrAoJ8vJLecDNyNgV02Q3yZi5LS9LP0JF0W.Oo8Pe"}]
+1532911038 : SELECT * FROM UserTable  WHERE username='funny' AND password='$2y$11$4HqoK8fb79AlKrAoJ8vJLe4FIMKNn12W2JIGORbbSHF4VZivAethy'  ;
+1532911038 : []
+1532911149 : SELECT * FROM UserTable  WHERE username='funny' AND password='$2y$11$4HqoK8fb79AlKrAoJ8vJLe4FIMKNn12W2JIGORbbSHF4VZivAethy'  ;
+1532911149 : []
+1532911160 : SELECT * FROM UserTable  WHERE username='funny' AND password='$2y$11$4HqoK8fb79AlKrAoJ8vJLecDNyNgV02Q3yZi5LS9LP0JF0W.Oo8Pe'  ;
+1532911160 : [{"id":"10","username":"funny","email":"sunny@yummy.com","password":"$2y$11$4HqoK8fb79AlKrAoJ8vJLecDNyNgV02Q3yZi5LS9LP0JF0W.Oo8Pe"}]
+1532911175 : SELECT * FROM UserTable  WHERE username='funny' AND password='$2y$11$4HqoK8fb79AlKrAoJ8vJLecDNyNgV02Q3yZi5LS9LP0JF0W.Oo8Pe'  ;
+1532911175 : [{"id":"10","username":"funny","email":"sunny@yummy.com","password":"$2y$11$4HqoK8fb79AlKrAoJ8vJLecDNyNgV02Q3yZi5LS9LP0JF0W.Oo8Pe"}]
+1532911175 : SELECT * FROM UserTable  WHERE username=''  ;
+1532911175 : []
+1532911205 : SELECT * FROM UserTable  WHERE username='funny' AND password='$2y$11$4HqoK8fb79AlKrAoJ8vJLecDNyNgV02Q3yZi5LS9LP0JF0W.Oo8Pe'  ;
+1532911205 : [{"id":"10","username":"funny","email":"sunny@yummy.com","password":"$2y$11$4HqoK8fb79AlKrAoJ8vJLecDNyNgV02Q3yZi5LS9LP0JF0W.Oo8Pe"}]
+1532911206 : SELECT * FROM UserTable  WHERE username='funny'  ;
+1532911206 : [{"id":"10","username":"funny","email":"sunny@yummy.com","password":"$2y$11$4HqoK8fb79AlKrAoJ8vJLecDNyNgV02Q3yZi5LS9LP0JF0W.Oo8Pe"}]
+1532911230 : SELECT * FROM UserTable  WHERE username='funny' AND password='$2y$11$4HqoK8fb79AlKrAoJ8vJLecDNyNgV02Q3yZi5LS9LP0JF0W.Oo8Pe'  ;
+1532911230 : [{"id":"10","username":"funny","email":"sunny@yummy.com","password":"$2y$11$4HqoK8fb79AlKrAoJ8vJLecDNyNgV02Q3yZi5LS9LP0JF0W.Oo8Pe"}]
+1532911230 : SELECT * FROM UserTable  WHERE username='funny'  ;
+1532911230 : [{"id":"10","username":"funny","email":"sunny@yummy.com","password":"$2y$11$4HqoK8fb79AlKrAoJ8vJLecDNyNgV02Q3yZi5LS9LP0JF0W.Oo8Pe"}]
+1532911309 : SELECT * FROM UserTable  WHERE username='funny' AND password='$2y$11$4HqoK8fb79AlKrAoJ8vJLecDNyNgV02Q3yZi5LS9LP0JF0W.Oo8Pe'  ;
+1532911309 : [{"id":"10","username":"funny","email":"sunny@yummy.com","password":"$2y$11$4HqoK8fb79AlKrAoJ8vJLecDNyNgV02Q3yZi5LS9LP0JF0W.Oo8Pe"}]
+1532911310 : SELECT * FROM UserTable  WHERE username='funny'  ;
+1532911310 : [{"id":"10","username":"funny","email":"sunny@yummy.com","password":"$2y$11$4HqoK8fb79AlKrAoJ8vJLecDNyNgV02Q3yZi5LS9LP0JF0W.Oo8Pe"}]
+1532911536 : SELECT * FROM UserTable  WHERE username='funny' AND password='$2y$11$4HqoK8fb79AlKrAoJ8vJLecDNyNgV02Q3yZi5LS9LP0JF0W.Oo8Pe'  ;
+1532911536 : [{"id":"10","username":"funny","email":"sunny@yummy.com","password":"$2y$11$4HqoK8fb79AlKrAoJ8vJLecDNyNgV02Q3yZi5LS9LP0JF0W.Oo8Pe"}]
+1532911548 : SELECT * FROM UserTable  WHERE username='funny' AND password='$2y$11$4HqoK8fb79AlKrAoJ8vJLecDNyNgV02Q3yZi5LS9LP0JF0W.Oo8Pe'  ;
+1532911548 : [{"id":"10","username":"funny","email":"sunny@yummy.com","password":"$2y$11$4HqoK8fb79AlKrAoJ8vJLecDNyNgV02Q3yZi5LS9LP0JF0W.Oo8Pe"}]
+1532911548 : SELECT * FROM UserTable  WHERE username='funny'  ;
+1532911548 : [{"id":"10","username":"funny","email":"sunny@yummy.com","password":"$2y$11$4HqoK8fb79AlKrAoJ8vJLecDNyNgV02Q3yZi5LS9LP0JF0W.Oo8Pe"}]
+1532911583 : SELECT * FROM UserTable  WHERE username='funny'  ;
+1532911583 : [{"id":"10","username":"funny","email":"sunny@yummy.com","password":"$2y$11$4HqoK8fb79AlKrAoJ8vJLecDNyNgV02Q3yZi5LS9LP0JF0W.Oo8Pe"}]
+1532911592 : SELECT * FROM UserTable  WHERE username='funny'  ;
+1532911592 : [{"id":"10","username":"funny","email":"sunny@yummy.com","password":"$2y$11$4HqoK8fb79AlKrAoJ8vJLecDNyNgV02Q3yZi5LS9LP0JF0W.Oo8Pe"}]
+1532911592 : SELECT * FROM UserTable  WHERE username='funny' AND password='$2y$11$4HqoK8fb79AlKrAoJ8vJLecDNyNgV02Q3yZi5LS9LP0JF0W.Oo8Pe'  ;
+1532911592 : [{"id":"10","username":"funny","email":"sunny@yummy.com","password":"$2y$11$4HqoK8fb79AlKrAoJ8vJLecDNyNgV02Q3yZi5LS9LP0JF0W.Oo8Pe"}]
+1532911674 : SELECT * FROM UserTable  WHERE username='funny'  ;
+1532911674 : [{"id":"10","username":"funny","email":"sunny@yummy.com","password":"$2y$11$4HqoK8fb79AlKrAoJ8vJLecDNyNgV02Q3yZi5LS9LP0JF0W.Oo8Pe"}]
+1532911674 : SELECT * FROM UserTable  WHERE username='funny' AND password='$2y$11$4HqoK8fb79AlKrAoJ8vJLecDNyNgV02Q3yZi5LS9LP0JF0W.Oo8Pe'  ;
+1532911674 : [{"id":"10","username":"funny","email":"sunny@yummy.com","password":"$2y$11$4HqoK8fb79AlKrAoJ8vJLecDNyNgV02Q3yZi5LS9LP0JF0W.Oo8Pe"}]
+1532911682 : SELECT * FROM UserTable  WHERE username='funny'  ;
+1532911682 : [{"id":"10","username":"funny","email":"sunny@yummy.com","password":"$2y$11$4HqoK8fb79AlKrAoJ8vJLecDNyNgV02Q3yZi5LS9LP0JF0W.Oo8Pe"}]
+1532911683 : SELECT * FROM UserTable  WHERE username='funny' AND password='$2y$11$4HqoK8fb79AlKrAoJ8vJLecDNyNgV02Q3yZi5LS9LP0JF0W.Oo8Pe'  ;
+1532911683 : [{"id":"10","username":"funny","email":"sunny@yummy.com","password":"$2y$11$4HqoK8fb79AlKrAoJ8vJLecDNyNgV02Q3yZi5LS9LP0JF0W.Oo8Pe"}]
+1532911804 : SELECT * FROM UserTable  WHERE username='funny'  ;
+1532911804 : [{"id":"10","username":"funny","email":"sunny@yummy.com","password":"$2y$11$4HqoK8fb79AlKrAoJ8vJLecDNyNgV02Q3yZi5LS9LP0JF0W.Oo8Pe"}]
+1532911804 : SELECT * FROM UserTable  WHERE username='funny' AND password='$2y$11$4HqoK8fb79AlKrAoJ8vJLecDNyNgV02Q3yZi5LS9LP0JF0W.Oo8Pe'  ;
+1532911805 : [{"id":"10","username":"funny","email":"sunny@yummy.com","password":"$2y$11$4HqoK8fb79AlKrAoJ8vJLecDNyNgV02Q3yZi5LS9LP0JF0W.Oo8Pe"}]
+1532911870 : SELECT * FROM UserTable  WHERE username='funny'  ;
+1532911870 : [{"id":"10","username":"funny","email":"sunny@yummy.com","password":"$2y$11$4HqoK8fb79AlKrAoJ8vJLecDNyNgV02Q3yZi5LS9LP0JF0W.Oo8Pe"}]
+1532911898 : SELECT * FROM UserTable  WHERE username='funny'  ;
+1532911898 : [{"id":"10","username":"funny","email":"sunny@yummy.com","password":"$2y$11$4HqoK8fb79AlKrAoJ8vJLecDNyNgV02Q3yZi5LS9LP0JF0W.Oo8Pe"}]
+1532911912 : SELECT * FROM UserTable  WHERE username='funny'  ;
+1532911912 : [{"id":"10","username":"funny","email":"sunny@yummy.com","password":"$2y$11$4HqoK8fb79AlKrAoJ8vJLecDNyNgV02Q3yZi5LS9LP0JF0W.Oo8Pe"}]
+1532911912 : SELECT * FROM UserTable  WHERE username='funny' AND password='$2y$11$4HqoK8fb79AlKrAoJ8vJLecDNyNgV02Q3yZi5LS9LP0JF0W.Oo8Pe'  ;
+1532911912 : [{"id":"10","username":"funny","email":"sunny@yummy.com","password":"$2y$11$4HqoK8fb79AlKrAoJ8vJLecDNyNgV02Q3yZi5LS9LP0JF0W.Oo8Pe"}]
+1532911921 : SELECT * FROM UserTable  WHERE username='funny'  ;
+1532911921 : [{"id":"10","username":"funny","email":"sunny@yummy.com","password":"$2y$11$4HqoK8fb79AlKrAoJ8vJLecDNyNgV02Q3yZi5LS9LP0JF0W.Oo8Pe"}]
+1532911971 : SELECT * FROM UserTable  WHERE username='funny'  ;
+1532911971 : [{"id":"10","username":"funny","email":"sunny@yummy.com","password":"$2y$11$4HqoK8fb79AlKrAoJ8vJLecDNyNgV02Q3yZi5LS9LP0JF0W.Oo8Pe"}]
+1532911971 : SELECT * FROM UserTable  WHERE username='funny' AND password='$2y$11$4HqoK8fb79AlKrAoJ8vJLecDNyNgV02Q3yZi5LS9LP0JF0W.Oo8Pe'  ;
+1532911971 : [{"id":"10","username":"funny","email":"sunny@yummy.com","password":"$2y$11$4HqoK8fb79AlKrAoJ8vJLecDNyNgV02Q3yZi5LS9LP0JF0W.Oo8Pe"}]
+1532912058 : SELECT * FROM UserTable  WHERE username='funny'  ;
+1532912058 : [{"id":"10","username":"funny","email":"sunny@yummy.com","password":"$2y$11$4HqoK8fb79AlKrAoJ8vJLecDNyNgV02Q3yZi5LS9LP0JF0W.Oo8Pe"}]
+1532912058 : SELECT * FROM UserTable  WHERE username='funny' AND password='$2y$11$4HqoK8fb79AlKrAoJ8vJLecDNyNgV02Q3yZi5LS9LP0JF0W.Oo8Pe'  ;
+1532912058 : [{"id":"10","username":"funny","email":"sunny@yummy.com","password":"$2y$11$4HqoK8fb79AlKrAoJ8vJLecDNyNgV02Q3yZi5LS9LP0JF0W.Oo8Pe"}]
+1532912144 : SELECT * FROM UserTable  WHERE username='funnys'  ;
+1532912144 : []
+1532912144 : SELECT * FROM UserTable  WHERE username='funnys' AND password='$2y$11$4HqoK8fb79AlKrAoJ8vJLecDNyNgV02Q3yZi5LS9LP0JF0W.Oo8Pe'  ;
+1532912144 : []
+1532912183 : SELECT * FROM UserTable  WHERE username='funnyss'  ;
+1532912183 : []
+1532912184 : SELECT * FROM UserTable  WHERE username='funnyss' AND password='$2y$11$4HqoK8fb79AlKrAoJ8vJLeeptTbVYF4VTWD5jdOIBNxWJy5jJogyS'  ;
+1532912184 : []
+1532912195 : SELECT * FROM UserTable  WHERE username='funnyss'  ;
+1532912195 : []
+1532912195 : SELECT * FROM UserTable  WHERE username='funnyss' AND password='$2y$11$4HqoK8fb79AlKrAoJ8vJLeeptTbVYF4VTWD5jdOIBNxWJy5jJogyS'  ;
+1532912195 : []
+1532912282 : SELECT * FROM UserTable  WHERE username='funnyss'  ;
+1532912282 : []
+1532912282 : SELECT * FROM UserTable  WHERE username='funnyss'  ;
+1532912282 : []
+1532912283 : SELECT * FROM UserTable  WHERE username='funnyss' AND password='$2y$11$4HqoK8fb79AlKrAoJ8vJLeeptTbVYF4VTWD5jdOIBNxWJy5jJogyS'  ;
+1532912283 : []
+1532912302 : SELECT * FROM UserTable  WHERE username='funnyss'  ;
+1532912302 : []
+1532912302 : SELECT * FROM UserTable  WHERE username='funnyss'  ;
+1532912302 : []
+1532912303 : SELECT * FROM UserTable  WHERE username='funnyss' AND password='$2y$11$4HqoK8fb79AlKrAoJ8vJLeeptTbVYF4VTWD5jdOIBNxWJy5jJogyS'  ;
+1532912303 : []
+1532912331 : SELECT * FROM UserTable  WHERE username='funnyss'  ;
+1532912331 : []
+1532912331 : SELECT * FROM UserTable  WHERE username='funnyss'  ;
+1532912331 : []
+1532912331 : SELECT * FROM UserTable  WHERE username='funnyss' AND password='$2y$11$4HqoK8fb79AlKrAoJ8vJLeeptTbVYF4VTWD5jdOIBNxWJy5jJogyS'  ;
+1532912331 : []
+1532912434 : SELECT * FROM UserTable  WHERE username='funnyss'  ;
+1532912434 : []
+1532912434 : SELECT * FROM UserTable  WHERE username='funnyss'  ;
+1532912434 : []
+1532912434 : INSERT INTO UserTable (username,password,email) VALUES ('funnyss', '$2y$11$4HqoK8fb79AlKrAoJ8vJLeeptTbVYF4VTWD5jdOIBNxWJy5jJogyS', 'sunny@test.com')
+1532912449 : SELECT * FROM UserTable  WHERE username='funnyss'  ;
+1532912449 : [{"id":"11","username":"funnyss","email":"sunny@test.com","password":"$2y$11$4HqoK8fb79AlKrAoJ8vJLeeptTbVYF4VTWD5jdOIBNxWJy5jJogyS"}]
+1532912449 : SELECT * FROM UserTable  WHERE username='funnyss'  ;
+1532912449 : [{"id":"11","username":"funnyss","email":"sunny@test.com","password":"$2y$11$4HqoK8fb79AlKrAoJ8vJLeeptTbVYF4VTWD5jdOIBNxWJy5jJogyS"}]
+1532912449 : SELECT * FROM UserTable  WHERE username='funnyss' AND password='$2y$11$4HqoK8fb79AlKrAoJ8vJLeeptTbVYF4VTWD5jdOIBNxWJy5jJogyS'  ;
+1532912449 : [{"id":"11","username":"funnyss","email":"sunny@test.com","password":"$2y$11$4HqoK8fb79AlKrAoJ8vJLeeptTbVYF4VTWD5jdOIBNxWJy5jJogyS"}]
+1532912468 : SELECT * FROM UserTable  WHERE username='funnyss'  ;
+1532912468 : [{"id":"11","username":"funnyss","email":"sunny@test.com","password":"$2y$11$4HqoK8fb79AlKrAoJ8vJLeeptTbVYF4VTWD5jdOIBNxWJy5jJogyS"}]
+1532912468 : SELECT * FROM UserTable  WHERE username='funnyss'  ;
+1532912468 : [{"id":"11","username":"funnyss","email":"sunny@test.com","password":"$2y$11$4HqoK8fb79AlKrAoJ8vJLeeptTbVYF4VTWD5jdOIBNxWJy5jJogyS"}]
+1532912468 : SELECT * FROM UserTable  WHERE username='funnyss' AND password='$2y$11$4HqoK8fb79AlKrAoJ8vJLeeptTbVYF4VTWD5jdOIBNxWJy5jJogyS'  ;
+1532912469 : [{"id":"11","username":"funnyss","email":"sunny@test.com","password":"$2y$11$4HqoK8fb79AlKrAoJ8vJLeeptTbVYF4VTWD5jdOIBNxWJy5jJogyS"}]
+1532912491 : SELECT * FROM UserTable  WHERE username='yo'  ;
+1532912491 : []
+1532912491 : SELECT * FROM UserTable  WHERE username='yo'  ;
+1532912491 : []
+1532912491 : INSERT INTO UserTable (username,password,email) VALUES ('yo', '$2y$11$4HqoK8fb79AlKrAoJ8vJLelo5Uo2xQU/nMpOqNUuXLhm3tL/OMr5m', 'sunny@test.com')
+1532912508 : SELECT * FROM UserTable  WHERE username='yo'  ;
+1532912508 : [{"id":"12","username":"yo","email":"sunny@test.com","password":"$2y$11$4HqoK8fb79AlKrAoJ8vJLelo5Uo2xQU\/nMpOqNUuXLhm3tL\/OMr5m"}]
+1532912508 : SELECT * FROM UserTable  WHERE username='yo'  ;
+1532912508 : [{"id":"12","username":"yo","email":"sunny@test.com","password":"$2y$11$4HqoK8fb79AlKrAoJ8vJLelo5Uo2xQU\/nMpOqNUuXLhm3tL\/OMr5m"}]
+1532912509 : SELECT * FROM UserTable  WHERE username='yo' AND password='$2y$11$4HqoK8fb79AlKrAoJ8vJLelo5Uo2xQU/nMpOqNUuXLhm3tL/OMr5m'  ;
+1532912509 : [{"id":"12","username":"yo","email":"sunny@test.com","password":"$2y$11$4HqoK8fb79AlKrAoJ8vJLelo5Uo2xQU\/nMpOqNUuXLhm3tL\/OMr5m"}]
+1532912596 : SELECT * FROM UserTable  WHERE username='yo'  ;
+1532912596 : [{"id":"12","username":"yo","email":"sunny@test.com","password":"$2y$11$4HqoK8fb79AlKrAoJ8vJLelo5Uo2xQU\/nMpOqNUuXLhm3tL\/OMr5m"}]
+1532912596 : SELECT * FROM UserTable  WHERE username='yo'  ;
+1532912596 : [{"id":"12","username":"yo","email":"sunny@test.com","password":"$2y$11$4HqoK8fb79AlKrAoJ8vJLelo5Uo2xQU\/nMpOqNUuXLhm3tL\/OMr5m"}]
+1532912597 : SELECT * FROM UserTable  WHERE username='yo' AND password='$2y$11$4HqoK8fb79AlKrAoJ8vJLelo5Uo2xQU/nMpOqNUuXLhm3tL/OMr5m'  ;
+1532912597 : [{"id":"12","username":"yo","email":"sunny@test.com","password":"$2y$11$4HqoK8fb79AlKrAoJ8vJLelo5Uo2xQU\/nMpOqNUuXLhm3tL\/OMr5m"}]
+1532912623 : SELECT * FROM UserTable  WHERE username='yo'  ;
+1532912623 : [{"id":"12","username":"yo","email":"sunny@test.com","password":"$2y$11$4HqoK8fb79AlKrAoJ8vJLelo5Uo2xQU\/nMpOqNUuXLhm3tL\/OMr5m"}]
+1532912623 : SELECT * FROM UserTable  WHERE username='yo'  ;
+1532912623 : [{"id":"12","username":"yo","email":"sunny@test.com","password":"$2y$11$4HqoK8fb79AlKrAoJ8vJLelo5Uo2xQU\/nMpOqNUuXLhm3tL\/OMr5m"}]
+1532912624 : SELECT * FROM UserTable  WHERE username='yo' AND password='$2y$11$4HqoK8fb79AlKrAoJ8vJLelo5Uo2xQU/nMpOqNUuXLhm3tL/OMr5m'  ;
+1532912624 : [{"id":"12","username":"yo","email":"sunny@test.com","password":"$2y$11$4HqoK8fb79AlKrAoJ8vJLelo5Uo2xQU\/nMpOqNUuXLhm3tL\/OMr5m"}]
+1532912637 : SELECT * FROM UserTable  WHERE username='yo'  ;
+1532912637 : [{"id":"12","username":"yo","email":"sunny@test.com","password":"$2y$11$4HqoK8fb79AlKrAoJ8vJLelo5Uo2xQU\/nMpOqNUuXLhm3tL\/OMr5m"}]
+1532912637 : SELECT * FROM UserTable  WHERE username='yo'  ;
+1532912637 : [{"id":"12","username":"yo","email":"sunny@test.com","password":"$2y$11$4HqoK8fb79AlKrAoJ8vJLelo5Uo2xQU\/nMpOqNUuXLhm3tL\/OMr5m"}]
+1532912695 : SELECT * FROM UserTable  WHERE username='yo'  ;
+1532912695 : [{"id":"12","username":"yo","email":"sunny@test.com","password":"$2y$11$4HqoK8fb79AlKrAoJ8vJLelo5Uo2xQU\/nMpOqNUuXLhm3tL\/OMr5m"}]
+1532912695 : SELECT * FROM UserTable  WHERE username='yo'  ;
+1532912695 : [{"id":"12","username":"yo","email":"sunny@test.com","password":"$2y$11$4HqoK8fb79AlKrAoJ8vJLelo5Uo2xQU\/nMpOqNUuXLhm3tL\/OMr5m"}]
+1532912695 : SELECT * FROM UserTable  WHERE username='yo' AND password='$2y$11$4HqoK8fb79AlKrAoJ8vJLelo5Uo2xQU/nMpOqNUuXLhm3tL/OMr5m'  ;
+1532912695 : [{"id":"12","username":"yo","email":"sunny@test.com","password":"$2y$11$4HqoK8fb79AlKrAoJ8vJLelo5Uo2xQU\/nMpOqNUuXLhm3tL\/OMr5m"}]
+1532912695 : SELECT * FROM UserTable  WHERE username='yo' AND password='$2y$11$4HqoK8fb79AlKrAoJ8vJLelo5Uo2xQU/nMpOqNUuXLhm3tL/OMr5m'  ;
+1532912695 : [{"id":"12","username":"yo","email":"sunny@test.com","password":"$2y$11$4HqoK8fb79AlKrAoJ8vJLelo5Uo2xQU\/nMpOqNUuXLhm3tL\/OMr5m"}]
+1532912734 : SELECT * FROM UserTable  WHERE username='yo'  ;
+1532912734 : [{"id":"12","username":"yo","email":"sunny@test.com","password":"$2y$11$4HqoK8fb79AlKrAoJ8vJLelo5Uo2xQU\/nMpOqNUuXLhm3tL\/OMr5m"}]
+1532912734 : SELECT * FROM UserTable  WHERE username='yo'  ;
+1532912734 : [{"id":"12","username":"yo","email":"sunny@test.com","password":"$2y$11$4HqoK8fb79AlKrAoJ8vJLelo5Uo2xQU\/nMpOqNUuXLhm3tL\/OMr5m"}]
+1532912734 : SELECT * FROM UserTable  WHERE username='yo' AND password='$2y$11$4HqoK8fb79AlKrAoJ8vJLelo5Uo2xQU/nMpOqNUuXLhm3tL/OMr5m'  ;
+1532912734 : [{"id":"12","username":"yo","email":"sunny@test.com","password":"$2y$11$4HqoK8fb79AlKrAoJ8vJLelo5Uo2xQU\/nMpOqNUuXLhm3tL\/OMr5m"}]
+1532912734 : SELECT * FROM UserTable  WHERE username='yo' AND password='$2y$11$4HqoK8fb79AlKrAoJ8vJLelo5Uo2xQU/nMpOqNUuXLhm3tL/OMr5m'  ;
+1532912734 : [{"id":"12","username":"yo","email":"sunny@test.com","password":"$2y$11$4HqoK8fb79AlKrAoJ8vJLelo5Uo2xQU\/nMpOqNUuXLhm3tL\/OMr5m"}]
+1532912768 : SELECT * FROM UserTable  WHERE username='yo'  ;
+1532912768 : [{"id":"12","username":"yo","email":"sunny@test.com","password":"$2y$11$4HqoK8fb79AlKrAoJ8vJLelo5Uo2xQU\/nMpOqNUuXLhm3tL\/OMr5m"}]
+1532912768 : SELECT * FROM UserTable  WHERE username='yo'  ;
+1532912768 : [{"id":"12","username":"yo","email":"sunny@test.com","password":"$2y$11$4HqoK8fb79AlKrAoJ8vJLelo5Uo2xQU\/nMpOqNUuXLhm3tL\/OMr5m"}]
+1532912768 : SELECT * FROM UserTable  WHERE username='yo' AND password='$2y$11$4HqoK8fb79AlKrAoJ8vJLelo5Uo2xQU/nMpOqNUuXLhm3tL/OMr5m'  ;
+1532912768 : [{"id":"12","username":"yo","email":"sunny@test.com","password":"$2y$11$4HqoK8fb79AlKrAoJ8vJLelo5Uo2xQU\/nMpOqNUuXLhm3tL\/OMr5m"}]
+1532912768 : SELECT * FROM UserTable  WHERE username='yo' AND password='$2y$11$4HqoK8fb79AlKrAoJ8vJLelo5Uo2xQU/nMpOqNUuXLhm3tL/OMr5m'  ;
+1532912768 : [{"id":"12","username":"yo","email":"sunny@test.com","password":"$2y$11$4HqoK8fb79AlKrAoJ8vJLelo5Uo2xQU\/nMpOqNUuXLhm3tL\/OMr5m"}]
+1532912825 : SELECT * FROM UserTable  WHERE username='yo'  ;
+1532912825 : [{"id":"12","username":"yo","email":"sunny@test.com","password":"$2y$11$4HqoK8fb79AlKrAoJ8vJLelo5Uo2xQU\/nMpOqNUuXLhm3tL\/OMr5m"}]
+1532912825 : SELECT * FROM UserTable  WHERE username='yo'  ;
+1532912825 : [{"id":"12","username":"yo","email":"sunny@test.com","password":"$2y$11$4HqoK8fb79AlKrAoJ8vJLelo5Uo2xQU\/nMpOqNUuXLhm3tL\/OMr5m"}]
+1532912825 : SELECT * FROM UserTable  WHERE username='yo' AND password='$2y$11$4HqoK8fb79AlKrAoJ8vJLelo5Uo2xQU/nMpOqNUuXLhm3tL/OMr5m'  ;
+1532912825 : [{"id":"12","username":"yo","email":"sunny@test.com","password":"$2y$11$4HqoK8fb79AlKrAoJ8vJLelo5Uo2xQU\/nMpOqNUuXLhm3tL\/OMr5m"}]
+1532912826 : SELECT * FROM UserTable  WHERE username='yo' AND password='$2y$11$4HqoK8fb79AlKrAoJ8vJLelo5Uo2xQU/nMpOqNUuXLhm3tL/OMr5m'  ;
+1532912826 : [{"id":"12","username":"yo","email":"sunny@test.com","password":"$2y$11$4HqoK8fb79AlKrAoJ8vJLelo5Uo2xQU\/nMpOqNUuXLhm3tL\/OMr5m"}]
+1532912852 : SELECT * FROM UserTable  WHERE username='yo'  ;
+1532912852 : [{"id":"12","username":"yo","email":"sunny@test.com","password":"$2y$11$4HqoK8fb79AlKrAoJ8vJLelo5Uo2xQU\/nMpOqNUuXLhm3tL\/OMr5m"}]
+1532912852 : SELECT * FROM UserTable  WHERE username='yo'  ;
+1532912852 : [{"id":"12","username":"yo","email":"sunny@test.com","password":"$2y$11$4HqoK8fb79AlKrAoJ8vJLelo5Uo2xQU\/nMpOqNUuXLhm3tL\/OMr5m"}]
+1532912852 : SELECT * FROM UserTable  WHERE username='yo' AND password='$2y$11$4HqoK8fb79AlKrAoJ8vJLelo5Uo2xQU/nMpOqNUuXLhm3tL/OMr5m'  ;
+1532912852 : [{"id":"12","username":"yo","email":"sunny@test.com","password":"$2y$11$4HqoK8fb79AlKrAoJ8vJLelo5Uo2xQU\/nMpOqNUuXLhm3tL\/OMr5m"}]
+1532912852 : SELECT * FROM UserTable  WHERE username='yo' AND password='$2y$11$4HqoK8fb79AlKrAoJ8vJLelo5Uo2xQU/nMpOqNUuXLhm3tL/OMr5m'  ;
+1532912852 : [{"id":"12","username":"yo","email":"sunny@test.com","password":"$2y$11$4HqoK8fb79AlKrAoJ8vJLelo5Uo2xQU\/nMpOqNUuXLhm3tL\/OMr5m"}]
+1532912887 : SELECT * FROM UserTable  WHERE username='yo'  ;
+1532912887 : [{"id":"12","username":"yo","email":"sunny@test.com","password":"$2y$11$4HqoK8fb79AlKrAoJ8vJLelo5Uo2xQU\/nMpOqNUuXLhm3tL\/OMr5m"}]
+1532912887 : SELECT * FROM UserTable  WHERE username='yo'  ;
+1532912887 : [{"id":"12","username":"yo","email":"sunny@test.com","password":"$2y$11$4HqoK8fb79AlKrAoJ8vJLelo5Uo2xQU\/nMpOqNUuXLhm3tL\/OMr5m"}]
+1532912887 : SELECT * FROM UserTable  WHERE username='yo' AND password='$2y$11$4HqoK8fb79AlKrAoJ8vJLelo5Uo2xQU/nMpOqNUuXLhm3tL/OMr5m'  ;
+1532912887 : [{"id":"12","username":"yo","email":"sunny@test.com","password":"$2y$11$4HqoK8fb79AlKrAoJ8vJLelo5Uo2xQU\/nMpOqNUuXLhm3tL\/OMr5m"}]
+1532912887 : SELECT * FROM UserTable  WHERE username='yo' AND password='$2y$11$4HqoK8fb79AlKrAoJ8vJLelo5Uo2xQU/nMpOqNUuXLhm3tL/OMr5m'  ;
+1532912887 : [{"id":"12","username":"yo","email":"sunny@test.com","password":"$2y$11$4HqoK8fb79AlKrAoJ8vJLelo5Uo2xQU\/nMpOqNUuXLhm3tL\/OMr5m"}]
+1532912950 : SELECT * FROM UserTable  WHERE username='yo'  ;
+1532912950 : [{"id":"12","username":"yo","email":"sunny@test.com","password":"$2y$11$4HqoK8fb79AlKrAoJ8vJLelo5Uo2xQU\/nMpOqNUuXLhm3tL\/OMr5m"}]
+1532912950 : SELECT * FROM UserTable  WHERE username='yo'  ;
+1532912950 : [{"id":"12","username":"yo","email":"sunny@test.com","password":"$2y$11$4HqoK8fb79AlKrAoJ8vJLelo5Uo2xQU\/nMpOqNUuXLhm3tL\/OMr5m"}]
+1532912950 : SELECT * FROM UserTable  WHERE username='yo' AND password='$2y$11$4HqoK8fb79AlKrAoJ8vJLelo5Uo2xQU/nMpOqNUuXLhm3tL/OMr5m'  ;
+1532912950 : [{"id":"12","username":"yo","email":"sunny@test.com","password":"$2y$11$4HqoK8fb79AlKrAoJ8vJLelo5Uo2xQU\/nMpOqNUuXLhm3tL\/OMr5m"}]
+1532912950 : SELECT * FROM UserTable  WHERE username='yo' AND password='$2y$11$4HqoK8fb79AlKrAoJ8vJLelo5Uo2xQU/nMpOqNUuXLhm3tL/OMr5m'  ;
+1532912950 : [{"id":"12","username":"yo","email":"sunny@test.com","password":"$2y$11$4HqoK8fb79AlKrAoJ8vJLelo5Uo2xQU\/nMpOqNUuXLhm3tL\/OMr5m"}]
+1532913031 : SELECT * FROM UserTable  WHERE username='yo'  ;
+1532913031 : [{"id":"12","username":"yo","email":"sunny@test.com","password":"$2y$11$4HqoK8fb79AlKrAoJ8vJLelo5Uo2xQU\/nMpOqNUuXLhm3tL\/OMr5m"}]
+1532913031 : SELECT * FROM UserTable  WHERE username='yo'  ;
+1532913031 : [{"id":"12","username":"yo","email":"sunny@test.com","password":"$2y$11$4HqoK8fb79AlKrAoJ8vJLelo5Uo2xQU\/nMpOqNUuXLhm3tL\/OMr5m"}]
+1532913031 : SELECT * FROM UserTable  WHERE username='yo' AND password='$2y$11$4HqoK8fb79AlKrAoJ8vJLelo5Uo2xQU/nMpOqNUuXLhm3tL/OMr5m'  ;
+1532913031 : [{"id":"12","username":"yo","email":"sunny@test.com","password":"$2y$11$4HqoK8fb79AlKrAoJ8vJLelo5Uo2xQU\/nMpOqNUuXLhm3tL\/OMr5m"}]
+1532913031 : SELECT * FROM UserTable  WHERE username='yo' AND password='$2y$11$4HqoK8fb79AlKrAoJ8vJLelo5Uo2xQU/nMpOqNUuXLhm3tL/OMr5m'  ;
+1532913031 : [{"id":"12","username":"yo","email":"sunny@test.com","password":"$2y$11$4HqoK8fb79AlKrAoJ8vJLelo5Uo2xQU\/nMpOqNUuXLhm3tL\/OMr5m"}]
+1532913034 : SELECT * FROM UserTable  WHERE username='yo'  ;
+1532913034 : [{"id":"12","username":"yo","email":"sunny@test.com","password":"$2y$11$4HqoK8fb79AlKrAoJ8vJLelo5Uo2xQU\/nMpOqNUuXLhm3tL\/OMr5m"}]
+1532913034 : SELECT * FROM UserTable  WHERE username='yo'  ;
+1532913034 : [{"id":"12","username":"yo","email":"sunny@test.com","password":"$2y$11$4HqoK8fb79AlKrAoJ8vJLelo5Uo2xQU\/nMpOqNUuXLhm3tL\/OMr5m"}]
+1532913034 : SELECT * FROM UserTable  WHERE username='yo' AND password='$2y$11$4HqoK8fb79AlKrAoJ8vJLelo5Uo2xQU/nMpOqNUuXLhm3tL/OMr5m'  ;
+1532913034 : [{"id":"12","username":"yo","email":"sunny@test.com","password":"$2y$11$4HqoK8fb79AlKrAoJ8vJLelo5Uo2xQU\/nMpOqNUuXLhm3tL\/OMr5m"}]
+1532913035 : SELECT * FROM UserTable  WHERE username='yo' AND password='$2y$11$4HqoK8fb79AlKrAoJ8vJLelo5Uo2xQU/nMpOqNUuXLhm3tL/OMr5m'  ;
+1532913035 : [{"id":"12","username":"yo","email":"sunny@test.com","password":"$2y$11$4HqoK8fb79AlKrAoJ8vJLelo5Uo2xQU\/nMpOqNUuXLhm3tL\/OMr5m"}]
+1532913053 : SELECT * FROM UserTable  WHERE username='yo'  ;
+1532913053 : [{"id":"12","username":"yo","email":"sunny@test.com","password":"$2y$11$4HqoK8fb79AlKrAoJ8vJLelo5Uo2xQU\/nMpOqNUuXLhm3tL\/OMr5m"}]
+1532913053 : SELECT * FROM UserTable  WHERE username='yo'  ;
+1532913053 : [{"id":"12","username":"yo","email":"sunny@test.com","password":"$2y$11$4HqoK8fb79AlKrAoJ8vJLelo5Uo2xQU\/nMpOqNUuXLhm3tL\/OMr5m"}]
+1532913053 : SELECT * FROM UserTable  WHERE username='yo' AND password='$2y$11$4HqoK8fb79AlKrAoJ8vJLelo5Uo2xQU/nMpOqNUuXLhm3tL/OMr5m'  ;
+1532913053 : [{"id":"12","username":"yo","email":"sunny@test.com","password":"$2y$11$4HqoK8fb79AlKrAoJ8vJLelo5Uo2xQU\/nMpOqNUuXLhm3tL\/OMr5m"}]
+1532913053 : SELECT * FROM UserTable  WHERE username='yo' AND password='$2y$11$4HqoK8fb79AlKrAoJ8vJLelo5Uo2xQU/nMpOqNUuXLhm3tL/OMr5m'  ;
+1532913053 : [{"id":"12","username":"yo","email":"sunny@test.com","password":"$2y$11$4HqoK8fb79AlKrAoJ8vJLelo5Uo2xQU\/nMpOqNUuXLhm3tL\/OMr5m"}]
+1532913967 : SELECT * FROM UserTable  WHERE username='yo'  ;
+1532913967 : [{"id":"12","username":"yo","email":"sunny@test.com","password":"$2y$11$4HqoK8fb79AlKrAoJ8vJLelo5Uo2xQU\/nMpOqNUuXLhm3tL\/OMr5m"}]
+1532913967 : SELECT * FROM UserTable  WHERE username='yo'  ;
+1532913967 : [{"id":"12","username":"yo","email":"sunny@test.com","password":"$2y$11$4HqoK8fb79AlKrAoJ8vJLelo5Uo2xQU\/nMpOqNUuXLhm3tL\/OMr5m"}]
+1532913967 : SELECT * FROM UserTable  WHERE username='yo' AND password='$2y$11$4HqoK8fb79AlKrAoJ8vJLelo5Uo2xQU/nMpOqNUuXLhm3tL/OMr5m'  ;
+1532913967 : [{"id":"12","username":"yo","email":"sunny@test.com","password":"$2y$11$4HqoK8fb79AlKrAoJ8vJLelo5Uo2xQU\/nMpOqNUuXLhm3tL\/OMr5m"}]
+1532913968 : SELECT * FROM UserTable  WHERE username='yo' AND password='$2y$11$4HqoK8fb79AlKrAoJ8vJLelo5Uo2xQU/nMpOqNUuXLhm3tL/OMr5m'  ;
+1532913968 : [{"id":"12","username":"yo","email":"sunny@test.com","password":"$2y$11$4HqoK8fb79AlKrAoJ8vJLelo5Uo2xQU\/nMpOqNUuXLhm3tL\/OMr5m"}]
+1533526885 : SELECT * FROM UserTable  WHERE username='yo'  ;
+1533526885 : [{"id":"12","username":"yo","email":"sunny@test.com","password":"$2y$11$4HqoK8fb79AlKrAoJ8vJLelo5Uo2xQU\/nMpOqNUuXLhm3tL\/OMr5m"}]
+1533526885 : SELECT * FROM UserTable  WHERE username='yo'  ;
+1533526885 : [{"id":"12","username":"yo","email":"sunny@test.com","password":"$2y$11$4HqoK8fb79AlKrAoJ8vJLelo5Uo2xQU\/nMpOqNUuXLhm3tL\/OMr5m"}]
+1533526885 : SELECT * FROM UserTable  WHERE username='yo' AND password='$2y$11$4HqoK8fb79AlKrAoJ8vJLelo5Uo2xQU/nMpOqNUuXLhm3tL/OMr5m'  ;
+1533526885 : [{"id":"12","username":"yo","email":"sunny@test.com","password":"$2y$11$4HqoK8fb79AlKrAoJ8vJLelo5Uo2xQU\/nMpOqNUuXLhm3tL\/OMr5m"}]
+1533526885 : SELECT * FROM UserTable  WHERE username='yo' AND password='$2y$11$4HqoK8fb79AlKrAoJ8vJLelo5Uo2xQU/nMpOqNUuXLhm3tL/OMr5m'  ;
+1533526885 : [{"id":"12","username":"yo","email":"sunny@test.com","password":"$2y$11$4HqoK8fb79AlKrAoJ8vJLelo5Uo2xQU\/nMpOqNUuXLhm3tL\/OMr5m"}]
